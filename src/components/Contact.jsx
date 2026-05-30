@@ -56,8 +56,7 @@ const contactLinks = [
     value: 'Chat on WhatsApp',
     href: 'https://wa.me/917500884775',
     icon: MessageCircle,
-    color: 'green',
-    featured: true
+    color: 'green'
   },
   {
     label: 'Location',
@@ -139,7 +138,7 @@ export default function Contact() {
                 </>
               )
 
-              const className = `flex items-center gap-4 p-4 rounded-2xl bg-slate-100/80 dark:bg-white/[0.02] border border-slate-200 dark:border-white/5 transition-all duration-300 group ${item.featured ? 'md:col-span-2 bg-emerald-500/10 dark:bg-emerald-500/5 border-emerald-500/20' : ''}`
+              const className = `flex items-center gap-4 p-4 rounded-2xl bg-slate-100/80 dark:bg-white/[0.02] border border-slate-200 dark:border-white/5 transition-all duration-300 group`
 
               return item.href ? (
                 <a key={item.label} href={item.href} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noreferrer' : undefined} className={className}>
@@ -155,7 +154,7 @@ export default function Contact() {
 
           <div className="pt-8 mt-8 border-t border-slate-200/50 dark:border-white/5 flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/sauravnegi100"
               target="_blank"
               rel="noreferrer"
               className="w-12 h-12 rounded-xl bg-slate-100 dark:bg-white/5 hover:bg-purple-500/10 border border-slate-200 dark:border-white/10 hover:border-purple-500/30 flex items-center justify-center text-slate-500 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-all duration-300 cursor-pointer"
@@ -164,7 +163,7 @@ export default function Contact() {
               <GithubIcon size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sauravnegi007"
               target="_blank"
               rel="noreferrer"
               className="w-12 h-12 rounded-xl bg-slate-100 dark:bg-white/5 hover:bg-blue-500/10 border border-slate-200 dark:border-white/10 hover:border-blue-500/30 flex items-center justify-center text-slate-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 cursor-pointer"

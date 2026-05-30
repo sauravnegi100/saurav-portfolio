@@ -52,7 +52,7 @@ const projectsData = [
       'Built fully structured CRUD operations allowing users to create, read, update, and delete resumes.'
     ],
     liveLink: null,
-    githubLink: 'https://github.com'
+    githubLink: 'https://github.com/sauravnegi100/saurav-resume-builder'
   },
   {
     title: 'MindEase: AI Mental Companion',
